@@ -1,0 +1,12 @@
+#nav-bar {
+    display:flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    #video{
+        max-width: fit-content;
+    }
+}
