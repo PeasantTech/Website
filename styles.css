@@ -1,0 +1,28 @@
+:root{
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-deepRed: #420101;
+    --color-roseTinge: #ffd3d3;
+    --color-cherryBlossom: #ffb5c6;
+    --color-carmine: #960018;
+    --color-tinge: #ff222255;
+  }
+
+  .footer{
+    color:var(--color-roseTinge);
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+  }
+  
+  a:link{
+    color: var(--color-roseTinge);
+  }
+  
+  a:visited{
+    color: var(--color-rose);
+  }
