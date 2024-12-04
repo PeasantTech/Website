@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>Certification Survey Project</title>
+    <link rel="stylesheet" href="SubmissionFormStyles.css"/>
+  </head>
+  <body>
+    <a href="https://survey-form.freecodecamp.rocks/">Survey Form</a>
+    <h1 id="title">Certification Survey Project</h1>
+    <p id="description">This is the freeCodeCamp certification project where you create a survey similar to <a href="https://survey-form.freecodecamp.rocks">freeCodeCamps</a></p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name: <input id="name" type="text" name="name" placeholder="Enter your Name" required/></label>
+        <label id="email-label" for="email">E-Mail: <input id="email" type="email" name="email" placeholder="someone@email.com" required/></label>
+        <label id="number-label" for="number">Phone Number (Optional): <input id="number" type="number" name="number" placeholder="99" min="16" max="125"/></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">
+          <select id="dropdown" name="dropdown">
+            <option value="">Select an Option:</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+        </label>
+        <legend></legend>
+        <label for="radio1"><input id="radio1" type="radio" name="selector" value="selection"/>Selection 1</label>
+        <label for="radio2"><input id="radio2" type="radio" name="selector" value="selection"/>Selection 2</label>
+      </fieldset>
+      <fieldset>
+        <label for><input type="checkbox" value="checkbox1"/>Chcekbox Option 1</label>
+        <label for><input type="checkbox" value="checkbox2"/>Checkbox Option 2</label>
+        <label for><input type="checkbox" value="checkbox3"/>Checkbox Option 3</label>
+        <label for><input type="checkbox" value="checkbox4"/>Checkbox Option 4</label>
+        <label>Additional Comments: <textarea id="comments" name="comments" rows="3" cols="30" value="To Code, or Not To Code..."></textarea></label>
+      </fieldset>
+      <fieldset>
+        <label for="submit"><input id="submit" type="submit"></label>
+      </fieldset>
+    </form>
+  </body>
