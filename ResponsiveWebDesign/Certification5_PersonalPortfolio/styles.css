@@ -1,0 +1,16 @@
+#navbar{
+  display:flex;
+  position:absolute;
+  top:0;
+  margin-bottom:10rem;
+}
+
+#welcome-section{
+  max-height: 100%;
+}
+
+@media (max-width:769px){
+  #projects{
+    max-width:768px;
+  }
+}
