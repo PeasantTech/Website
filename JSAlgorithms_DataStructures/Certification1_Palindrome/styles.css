@@ -1,0 +1,67 @@
+:root{
+    --color-one: #ffffff;
+    --color-two: #000000;
+    --color-three: #555555;
+    --color-four: #252525;
+    --color-five: #c6c6c6;
+  }
+  
+  body{
+    background: var(--color-four);
+  }
+  
+  .fCC-palindrome{
+    color:var(--color-one);
+  }
+  
+  .main-text{
+    background: var(--color-three);
+    overflow:hidden;
+  }
+  
+  .page-header{
+    color:var(--color-one);
+    text-align:center;
+  }
+  
+  .input-div{
+    display:flex;
+    justify-content:center;
+    background: var(--color-two);
+    border:20px solid transparent;
+  }
+  
+  .input-pal-text{
+    display:block;
+    border-radius: 25px;
+    text-align:center;
+  }
+  
+  .check-pal-btn{
+    display:block;
+    border-radius:50px;
+  }
+  
+  .check-pal-btn:active{
+    color: var(--color-one);
+    background: var(--color-two);
+  }
+  
+  .result-title{
+    display:block;
+    font-size:1.25rem;
+    color:var(--color-two);
+    background-color:var(--color-five);
+  }
+  
+  .result-p{
+    display:hide;
+    font-size:1.25rem;
+    color: var(--color-two);
+    background-color: var(--color-five);
+  }
+  
+  .result-div{
+    display:block;
+    text-align:center;
+  }
