@@ -84,7 +84,10 @@ header {
   width: 100%;
 }
 
-a:link {}
+a:link {
+  color: var(--color-roseTinge);
+}
 
 a:visited {
+  color: var(--color-rose);
 }
