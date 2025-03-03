@@ -1,0 +1,95 @@
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-backgroundPrim: #555555;
+    --color-backgroundSecond: #00ff00;
+    --color-foregroundPrim: #aaaaaa;
+    --color-foregroundSecond: #0000ff;
+    --color-buttonText: #ffffff;
+    --color-buttonHover: #ff0000;
+    --color-buttonPress: #ffff00;
+    --color-button: #454545;
+    --color-linkBase: #ff00ff;
+    --color-linkHover: #880088;
+    --color-linkPress: #330033;
+    --color-linkFollowed: #00ffff;
+
+
+
+}
+
+body {
+    background: var(--color-backgroundPrim);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    background: var(--color-foregroundPrim);
+}
+
+.navbar button{
+    color:var(--color-buttonText);
+    border:none;
+    background:none;
+    padding:0.5vh 1vw;
+    margin: 0.5vh 1vw;
+}
+.navbar button:active{
+    background:var(--color-buttonPress);
+    border-radius:10px;
+}
+
+.navbar button:hover{
+    background:var(--color-buttonHover);
+    border-radius: 5px;
+    padding:0.5vh 1vw;
+    margin: 0.5vh 1vw;
+}
+
+.navbar #hamburger-dropdown {
+    background: var(--color-button);
+    margin: none;
+    padding: none;
+    width: 4vh;
+    height: 4vh;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.navbar #hamburger-dropdown:hover {
+    background: var(--color-buttonHover);
+    margin: none;
+    padding: none;
+    width: 4vh;
+    height: 4vh;
+}
+
+.footer {
+    color: var(--color-roseTinge);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+a:link {
+    color: var(--color-linkBase);
+}
+
+a:visited {
+    color: var(--color-linkFollowed);
+}
+
+a:hover {
+    color: var(--color-linkHover);
+}
+
