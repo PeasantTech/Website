@@ -13,9 +13,23 @@
     --color-linkHover: #880088;
     --color-linkPress: #330033;
     --color-linkFollowed: #00ffff;
+    --color-border: #ff0000;
 
 
+}
 
+/*
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+*/
+* {
+    border: solid 1px var(--color-border);
 }
 
 body {
