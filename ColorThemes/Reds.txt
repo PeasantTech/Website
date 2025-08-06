@@ -7,10 +7,57 @@
 --color-objects: #960018;
 --color-active: #ff222255;
 
---color-one: #1b1b1b;
---color-two: #490e0e;
---color-three: #770000;
---color-four: #a04040;
---color-five: #bb7e73;
---color-six: #ddbdad;
---color-one: #fffce6;
+--color-pallet-one: #1b1b1b;
+--color-pallet-two: #490e0e;
+--color-pallet-three: #770000;
+--color-pallet-four: #a04040;
+--color-pallet-five: #bb7e73;
+--color-pallet-six: #ddbdad;
+--color-pallet-seven: #fffce6;
+
+--color-one: #800000;
+--color-two: #ff0000;
+--color-three: #33333333;
+--color-four: #999999;
+--color-five: #1b0000;
+--color-six: #626262;
+--color-seven: #9b1313;
+--color-eight: #410000;
+--color-nine: #ffffff;
+--color-ten: #ff6f6f;
+--color-eleven: #111111;
+--color-eleven: #80000055;
+--color-twelve: #222222;
+--color-thirteen: #444444;
+--color-fourteen: #ff6f6f55;
+--color-fifteen: #9b131388;
+--color-sixteen: #413a3a66;
+--color-sixteen: #ff000020;
+
+
+--color-text-one: #7a0e0a;
+--color-text-one: #202020;
+--color-text-one: #272727;
+--color-text-one: #c8c8c8;
+
+ff
+00
+01
+0123456789ABCDEF base 16
+0 
+1   
+00
+11
+000
+111
+0000
+1111
+0000 0
+1111 1
+0000 00
+1111 11
+0000 000
+1111 111
+0000 0000
+1111 1111
+#### 15731
